@@ -14,3 +14,9 @@ end
 # def batch_badge_creator
 #   puts " Hello, my name is Johnny."
 # end
+
+
+def assign_rooms(attendees)
+  attendees = room_assignments
+
+end
