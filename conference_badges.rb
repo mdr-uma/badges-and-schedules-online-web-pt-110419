@@ -15,11 +15,10 @@ end
 
 
 
-# def batch_badge_creator
-#   puts " Hello, my name is Johnny."
-# end
-
-
 def assign_rooms(attendees)
-  attendees = room_assignments
+  array = []
+  attendees.each_with_index do |name, index|
+    array << room_assignments(name)
+  end
+  return array
 end
