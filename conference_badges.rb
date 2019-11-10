@@ -6,7 +6,7 @@ end
 
 attendee = "Jhonny"
 def batch_badge_creator(attendees)
-  attendees.each_with_index{|array, index| array[attendee]} = badges
+  attendees.each_with_index{|array, index| array[attendee]} 
 end
 
 
