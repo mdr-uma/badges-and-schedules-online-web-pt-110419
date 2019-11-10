@@ -6,7 +6,7 @@ end
 
 
 def batch_badge_creator(attendees)
-  attendees["Jhonny"] = badges
+  attendees = badges
 end
 
 
