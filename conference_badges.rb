@@ -15,10 +15,10 @@ end
 
 
 
-def assign_rooms(attendees)
-  array = []
-  attendees.each_with_index do |name, index|
-  array << "Hello, #{attendees}! You'll be assigned to room #{index+1}!"
+def assign_rooms(speakers)
+  greet = []
+  speakers.each_with_index do |speakers, index|
+  greet << "Hello, #{attendees}! You'll be assigned to room #{index+1}!"
   end
-  return array
+  return greet
 end
