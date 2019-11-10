@@ -11,6 +11,6 @@ end
 
 
 
-def batch_badge_creator
-  puts " Hello, my name is Johnny."
-end
+# def batch_badge_creator
+#   puts " Hello, my name is Johnny."
+# end
